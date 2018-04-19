@@ -1,0 +1,17 @@
+/Users/yutonabetani/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20180415-23176-7kudd0.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling io_buffer.c
+compiling mini_ssl.c
+compiling puma_http11.c
+compiling http11_parser.c
+linking shared-object puma/puma_http11.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20180415-23176-dekqpi/puma

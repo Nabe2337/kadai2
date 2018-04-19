@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  messages: MyString
+  index: MyString
+  show: MyString
+  new: MyString
+
+two:
+  messages: MyString
+  index: MyString
+  show: MyString
+  new: MyString
